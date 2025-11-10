@@ -1,6 +1,6 @@
 import NavLinks from "./NavLinks";
 
-export function NavBar(){
+export default function NavBar(){
     return(
     <header>
         <div className="main-heading-container">
