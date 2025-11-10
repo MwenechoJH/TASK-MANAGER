@@ -1,13 +1,15 @@
-export default function NavBar(){
+import NavLinks from "./NavLinks";
+
+export function NavBar(){
     return(
-        <div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Tasks</li>
-                    <li>Notes</li>
-                </ul>
-            </nav>
+    <header>
+        <div className="main-heading-container">
+            <div>
+                <i className="fa-solid fa-robot blue-icon"></i>
+            </div>
+            <h1 className="main-heading">Necho TaskManager</h1>
+            <NavLinks></NavLinks>
         </div>
+    </header>
     );
 }
